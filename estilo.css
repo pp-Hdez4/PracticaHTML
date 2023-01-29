@@ -103,3 +103,25 @@ div.formulario{
     top: 5%;
     
 }
+
+ul {
+  list-style-type: circle;
+    color: #fff;
+  border: 2px solid red;
+  background: white url("lava.gif") bottom left repeat-x;
+    width: 10%;
+}
+li {
+    color: #fff;
+  margin: 5px;
+  background: #000 url("lava.gif") bottom left repeat-x;
+    width: 10%;
+}
+
+h3 {
+  color: red;
+  font-weight: normal;
+  font-size: 15px;
+  font-family: Arial;
+  text-transform: uppercase;
+}
