@@ -1,0 +1,65 @@
+<html lang="es" dir="ltr">
+    <head>
+        <title>Practica HTML/CSS</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+        
+    </head>
+    
+    <body>
+        
+        
+        <div class="nav">
+            <nav class="opciones">
+                <a href="index.html">Home</a>
+                <a href="formulario.html">Contacto</a>
+
+            </nav>
+            
+        </div>
+        
+        <div class="formulario">
+            <h3>contacto</h3>
+            <form action="formulario.html" method="get">
+                <label for="lblNombre">Nombre:</label><br>
+                <input type="text" name="nombre"><br>
+                
+                <label for="lblcorreo">Correo:</label><br>
+                <input type="email" name="correo"><br>
+                
+                
+                <label for="contra">Password</label><br>
+                <input type="password" name="contra"><br>
+                
+                <label for="com">Comentario</label><br>
+                <textarea name="textarea" rows="5" cols="25">Escribe algo aqui</textarea><br>
+                
+                <label for="ciudad">Ciudad</label>
+                <select name="select">
+                  <option value="Guadalajara">Guadalajara</option>
+                  <option value="Zapopan" >Zapopan</option>
+                  <option value="Tonalá">Tonalá</option>
+                    <option value="Tlaquepaque">Tlaquepaque</option>
+                </select><br>
+                
+                <label for="contratacion">Me interesa contratarte</label>
+                <input type="checkbox" name="hiring"><br>
+                
+                <p>Genero:</p>
+                <input type="radio"  name="genero" value="Hombre">
+                <label for="hombre">Hombre</label><br>
+                <input type="radio"  name="genero" value="Mujer">
+                <label for="mujer">Mujer</label><br>
+                
+                <input type="submit" value="Enviar">
+                
+            </form>
+            
+        
+        
+        
+        </div>
+        
+        
+    </body>
+</html>
